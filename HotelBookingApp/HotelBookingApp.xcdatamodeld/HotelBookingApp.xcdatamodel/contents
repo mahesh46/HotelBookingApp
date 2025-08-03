@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23788.4" systemVersion="24F74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BookingEntity" representedClassName="BookingEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="checkInDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="checkOutDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="hotelData" optional="YES" attributeType="Binary" valueTransformerName="[Hotel]"/>
+        <attribute name="hotelName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+</model>
